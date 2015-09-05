@@ -1,0 +1,5 @@
+-R spec
+--timeout 5000
+--recursive
+--globals AggressiveTokenizer,tokenizer,RegexpTokenizer,WordTokenizer,WordPunctTokenizer,TreebankWordTokenizer,$V,$M,$L,$P
+--compilers coffee:coffee-script/register
